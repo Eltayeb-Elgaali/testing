@@ -9,7 +9,7 @@ const assert = chai.assert;
  * @returns {string} the strings, joined
  */
 const joinWithComma = (acc, next) => {
-  return _;
+  return `${acc}, ${next}`;
 };
 
 
