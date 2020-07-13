@@ -8,7 +8,7 @@ const assert = chai.assert;
  * @returns {string} the string, reversed
  */
 const reverseString = (str) => {
-  return _;
+  return str.split('').reverse().join('');
 };
 
 
