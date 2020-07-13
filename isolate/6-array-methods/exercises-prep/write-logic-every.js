@@ -9,7 +9,7 @@ const assert = chai.assert;
  * @returns {boolean} is the number even?
  */
 const isEven = (num) => {
-  return _;
+  return num % 2 === 0;
 };
 
 
