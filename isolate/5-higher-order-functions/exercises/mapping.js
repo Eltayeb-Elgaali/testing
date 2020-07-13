@@ -9,8 +9,8 @@ const deepCompare = (actual, expect) => actual === expect || Object.is(actual, e
  * @param {any} val - the value to convert
  * @returns {string} "truey" or "falsey"
  */
-const truthiness = (_) => {
-  return _;
+const truthiness = (val) => {
+  return `${Boolean(val)}y`;
 };
 
 // this works! no need to change it
